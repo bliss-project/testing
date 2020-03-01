@@ -5,31 +5,49 @@
   width: 50%;
 }
 
-
 .container {
-
-    height:706px;
-    width:877px;
+  position: relative;
+  width: 100%;
+  height: 80%;
 }
 
-btn {
-    height:706px;
-    width:877px;
+.container img {
+  
+    height:80%;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.container .btn {
   position: absolute;
-  top: 49%;
-  left: 147%;
+  top: 12%;
+  left: 110%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   background-color: #555;
   color: white;
   font-size: 16px;
-  padding: 27% 31.5%;
+  padding: 14px 40px;
   border: none;
   cursor: pointer;
   border-radius: 5px;
   text-align: center;
+
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
 }
 
-.container .btn:hover {
-  background-color: transparent;
+button {
+    background-color: black;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
 }
